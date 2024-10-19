@@ -1,0 +1,21 @@
+{
+	"name": "parcial2",
+	"version": "1.0.0",
+	"description": "Web storage is a feature in modern web browsers that allows web applications to store data in the user's web browser. This is due to the interface of the `Storage API` that expose the `Local` and `Session Storage`. [Ref. Web Storage](https://developer.mozilla.org/es/docs/Web/API/Storage)",
+	"main": "webpack.config.js",
+	"scripts": {
+		"start": "serve",
+		"build": "webpack --watch --mode=production"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^7.1.2",
+		"serve": "^14.2.4",
+		"ts-loader": "^9.5.1",
+		"typescript": "^5.6.2",
+		"webpack": "^5.95.0",
+		"webpack-cli": "^5.1.4"
+	}
+}
